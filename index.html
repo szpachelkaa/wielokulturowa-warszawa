@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Film szkolny</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mój film szkolny</h1>
+     <!-- Wklej w index.html tam, gdzie chcesz mieć film -->
+<video id="myVideo" width="720" controls>
+    <source src="https://rr4---sn-a5mlrnek.googlevideo.com/videoplayback?expire=1747735684&ei=JAAsaIXQKrGKkucPi-jU2QU&ip=45.196.32.89&id=o-AI3piThh57CGMmu8Z_o3LvsOPsSSXpmEWKYBMQFxFoKl&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AecWEAbw93BfPLrTmx9Bi5Pb6SVVq90SrUwr4vQn73S9ufAWv37FPBZVBXbVv-bUNjalZULA1wrGd9tr&vprv=1&svpuc=1&mime=video%2Fmp4&ns=9-JB_u3Az0GM1fAfvKrfJAwQ&rqh=1&cnr=14&ratebypass=yes&dur=77.322&lmt=1665549783910584&lmw=1&c=TVHTML5&sefc=1&txp=5538434&n=Lz_XI9aPQIlgHg&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRQIhAM4FhrJ3D-fuVOPl7_4-ka9ZNQe4Z9FFeAvtxIG2jWsxAiBYuFhxL8nQz4Dd4BZaZv_wLThufi7CZluhd1NSt-KY0g%3D%3D&redirect_counter=1&cm2rm=sn-p5qee776&rrc=80&fexp=24350590,24350737,24350827,24350961,24351173,24351177,24351495,24351528,24351594,24351638,24351658,24351662,24351757,24351790,24351864,24351865,24351907,24351984,24352018,24352023&req_id=83d80c6a3f14a3ee&cms_redirect=yes&cmsv=e&met=1747714105,&mh=Vy&mip=5.173.180.59&mm=34&mn=sn-a5mlrnek&ms=ltu&mt=1747713320&mv=D&mvi=4&pl=0&rms=ltu,au&lsparams=met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=ACuhMU0wRQIhAKAQVam--HA26Wab9o33Xrhb88o3XVC8k6CcEgyMNXknAiAetg8emcaXNIXLmVcmDkXvkdusjB7P2Gj8Juy0rZ3ypQ%3D%3D" type="video/mp4">
+    Twoja przeglądarka nie obsługuje wideo.
+</video>
+<div class="controls">
+    <button onclick="skip(-10)">⏪ -10s</button>
+    <button onclick="skip(10)">⏩ +10s</button>
+</div>
+<div class="actions">
+    <button id="likeBtn">👍 Like <span id="likeCount">0</span></button>
+    <button id="subBtn">🔔 Subskrybuj <span id="subCount">0</span></button>
+</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
